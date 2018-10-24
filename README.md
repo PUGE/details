@@ -1,35 +1,4 @@
-# @puge/highlight
-
-
-> SVG动画效果选择框.
-![Alt text](http://github-puge.oss-cn-beijing.aliyuncs.com/highlight/high.png)
-
-## 安装 及 使用
-
-```bash
-$ npm install --save @puge/details
-```
-
-使用组件
-
-```vue
-<template>
-  <Details title="Have you heard about details?">
-    <p>That's pretty manageable too! Use the <code>summary</code> element.</p>
-    <p>Put a <code>summary</code> at the beginning of your details element and <b>Boom!</b> - you've got a custom title for your <code>details</code> block.</p>
-    <p>No worries if you don't add a <code>summary</code>. The browser will put the word "Details" in there for you. (After all, users need something to click!)</p>
-  </Details>
-</template>
-
-<script>
-  import Details from '@puge/details'
-  export default {
-    components: {
-      Details
-    }
-  }
-</script>
-```
+# @puge/details
 
 效果:
 ![Alt text](http://github-puge.oss-cn-beijing.aliyuncs.com/details/1.png)
